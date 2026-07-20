@@ -78,12 +78,12 @@
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-7 text-[14px] font-medium">
-        <button onclick="scrollToSection('templates')" class="hover:opacity-60">Templates</button>
-        <button onclick="scrollToSection('track')" class="hover:opacity-60">Track Order</button>
-        <button onclick="scrollToSection('bulk')" class="hover:opacity-60">Bulk Order</button>
-        <button onclick="scrollToSection('create')" class="h-10 px-5 rounded-full bg-[#FF6B35] text-white font-semibold shadow">
+        <a href="templet.html"> <button >Templets</button></a>
+       <a href="trackorder.html"> <button >Track Order</button></a>
+        <a href="bulkorder.html"> <button >Bulk Order</button></a>
+        <a href="create.html"><button class="h-10 px-5 rounded-full bg-[#FF6B35] text-white font-semibold shadow">
           Create Now
-        </button>
+        </button></a>
       </nav>
 
       <!-- Mobile Menu Button -->
@@ -146,9 +146,9 @@
         </div>
 
         <div class="mt-7 flex flex-col sm:flex-row gap-3">
-          <button onclick="scrollToSection('create')" class="h-[52px] px-7 rounded-full bg-[#FF6B35] text-white font-semibold flex items-center justify-center gap-2">
+         <a href="create.html"> <button  class="h-[52px] px-7 rounded-full bg-[#FF6B35] text-white font-semibold flex items-center justify-center gap-2">
             Create Now @ ₹249 →
-          </button>
+          </button></a>
 
           <button onclick="scrollToSection('how-to-order')" class="h-[52px] px-7 rounded-full bg-white border-2 border-black font-semibold flex items-center justify-center gap-2">
             <span class="w-7 h-7 rounded-full bg-black text-white grid place-items-center text-xs">▶</span>
@@ -299,9 +299,9 @@
             </div>
           </div>
 
-          <button onclick="scrollToSection('create')" class="w-full h-12 rounded-full bg-black text-white font-semibold">
+          <a href="create.html"><button  class="w-full h-12 rounded-full bg-black text-white font-semibold">
             Start Creating — Only ₹249
-          </button>
+          </button></a>
 
         </div>
 
@@ -326,29 +326,95 @@
   </section>
 
 
-  <!-- 
-    ================================
-    TEMPLATES SECTION
-    ================================
-  -->
-  <section id="templates" class="bg-[#2B2B2B] text-white rounded-t-[32px]">
+ <!-- ================================
+     TEMPLATES SECTION
+================================ -->
+<section id="templates" class="bg-[#2B2B2B] text-white rounded-t-[32px]">
 
-    <div class="mx-auto max-w-[1180px] px-4 md:px-6 py-12 md:py-16">
+  <div class="mx-auto max-w-[1180px] px-4 md:px-6 py-12 md:py-16">
 
-      <div class="flex flex-wrap justify-between gap-4">
-        <h2 class="text-[32px] md:text-[42px] font-bold leading-tight">
-           <span class="hand text-[#FF8A5B] text-[42px]">Best Selling Templates</span>
-        </h2>
-        
+    <div class="flex flex-wrap justify-between gap-4">
+      <h2 class="text-[32px] md:text-[42px] font-bold leading-tight">
+        <span class="hand text-[#FF8A5B] text-[42px]">
+          Best Selling Templates
+        </span>
+      </h2>
+    </div>
+
+    <!-- Template Images -->
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Template 1 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="1.png"
+             alt="Princess Theme"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Princess Theme</h3>
+         
+        </div>
       </div>
 
-      <div id="templateGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        <!-- Filled by JS -->
+      <!-- Template 2 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="2.png"
+             alt="Space Adventure"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Space Adventure</h3>
+          
+        </div>
+      </div>
+
+      <!-- Template 3 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="3.png"
+             alt="Jungle Safari"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Jungle Safari</h3>
+          
+        </div>
+      </div>
+
+      <!-- Template 4 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="4.png"
+             alt="Superhero"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Superhero Theme</h3>
+          
+        </div>
+      </div>
+
+      <!-- Template 5 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="5.png"
+             alt="Animals"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Cute Animals</h3>
+          
+        </div>
+      </div>
+
+      <!-- Template 6 -->
+      <div class="bg-[#3A3A3A] rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+        <img src="5.png"
+             alt="Cars"
+             class="w-full aspect-[297/210] object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Racing Cars</h3>
+         
+        </div>
       </div>
 
     </div>
 
-  </section>
+  </div>
+
+</section>
 
 
   <!-- 
